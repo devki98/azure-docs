@@ -27,7 +27,7 @@ Interested in watching a video about the solution before getting started, see th
 ## Solution components
 The following diagram represents the data flow and components involved in the solution:
 
-![Project visual](./media/changefeed-ecommerce-solution/project-visual.png)
+![Project visual](./media/changefeed-ecommerce-solution/project-visual.PNG)
  
 1. **Data Generation:** Data simulator is used to generate retail data that represents events such as a user viewing an item, adding an item to their cart, and purchasing an item. You can generate large set of sample data by using the data generator. The generated sample data contains documents in the following format:
    
@@ -328,13 +328,13 @@ You will now observe how you can use your new data analysis tool to connect with
 
 2. Click on the **topItems** collection, and under **Scale and Settings** set the **Time to Live** to be **30 seconds** so that topItems updates every 30 seconds.
 
-   ![Time to live](./media/changefeed-ecommerce-solution/time-to-live.png)
+   ![Time to live](./media/changefeed-ecommerce-solution/time-to-live.PNG)
 
 3. In order to populate the **topItems** collection with the most frequently purchased items, navigate back to **streamjob1** and add a new **Output**. Select **Cosmos DB**.
 
 4. Fill in the required fields as pictured below.
 
-   ![Cosmos output](./media/changefeed-ecommerce-solution/cosmos-output.png)
+   ![Cosmos output](./media/changefeed-ecommerce-solution/cosmos-output.PNG)
  
 5. If you added the optional TOP 5 query in the previous part of the lab, proceed to part 5a. If not, proceed to part 5b.
 
